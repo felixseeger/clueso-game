@@ -1,0 +1,47 @@
+body {
+	font-family: sans-serif;
+}
+
+.gamebg {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/bg-img.jpg);
+	background-size: cover;
+}
+
+#start,
+#new,
+#mystery {
+	width: 100px;
+	height: 60px;
+	font-size: 0.9em;
+	background-color: rgb(59, 113, 158);
+	color: white;
+	outline: none;
+	border: none;
+	margin-top: 10px;
+}
+
+img {
+	width: 300px;
+}
+
+h3 {
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	text-align: center;
+	height: 50px;
+	width: 700px;
+	color: white;
+	background-color: rgb(18, 18, 54);
+}
+
+#killerpic {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	left: 30px;
+}

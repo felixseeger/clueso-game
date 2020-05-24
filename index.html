@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./assets/css/index.css">
+
+<title>Clueso Game</title>
+</head>
+<body>
+    <div class="gamebg">
+        <img src="./assets/img/cluedo_logo.png" alt="cluedo logo">
+        <h2>Who killed Mr. Boddy?</h2>
+        <img src="./assets/img/characters_all.jpg" alt="cluedo characters">
+        <br>
+        <button id="mystery" onclick="pickMystery()">Pick Mystery</button>
+        <button id="start" onclick="revealMystery()">Answer</button>
+    
+        <button id="new" onclick="reset()">New Game</button>
+        <h3 id="answer"></h3>
+        <div id="killerpic"></div>
+        </div>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
