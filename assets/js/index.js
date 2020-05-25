@@ -5,7 +5,7 @@ const suspectsArray = [
 		occupation: 'Entrepreneur',
 		age: 45,
 		description: 'He has a lot of connections',
-		image: '../assets/img/Tudor_Mansion_Mr._Green.png',
+		image: '../assets/img/Tudor_Mansion_Mr_Green.png',
 		color: 'green'
 	},
 	{
